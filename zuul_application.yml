@@ -27,7 +27,7 @@ server:
 spring:
   application:
     name: MICROSERVICE-ZUUL-GATEWAY
-  profiles: dev
+  profiles: test
 eureka:
   client:
     service-url:

@@ -14,7 +14,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka
   instance:
     instance-id:  gateway-9527.com
-    prefer-ip-address: true #显示客户真实ip信息
+    prefer-ip-address: true
 zuul:
   prefix: "/aigou"
   ignored-services: "*"
@@ -36,7 +36,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka
   instance:
     instance-id:  gateway-9528.com
-    prefer-ip-address: true #显示客户真实ip信息
+    prefer-ip-address: true
 zuul:
   prefix: "/aigou"
   ignored-services: "*"
